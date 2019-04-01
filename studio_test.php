@@ -33,8 +33,8 @@ if ($err) {
 if($results != ''){
 
   // Setup a holder for the lists
-  $first_list = '<table class="list_data"><caption>Units with 1 Area Measurement</caption><tr><th>Unit Number</th><th >Area <span class="small_text">(SqFt)</span></th><th>Last Updated</th></tr>';
-  $second_list = $first_list;
+  $first_list = '<table class="list_data"><caption>Units with 1 Area Measurement</caption><tr><th>Unit Number</th><th >Area</th><th>Last Updated</th></tr>';
+  $second_list = '<table class="list_data"><caption>Units with SqFT Area Measurement</caption><tr><th>Unit Number</th><th >Area <span class="small_text">(SqFt)</span></th><th>Last Updated</th></tr>';
 
 // Parse through the arrays within the array
   foreach($results['data'] as $i => $arr_val){
